@@ -14,14 +14,15 @@
     <title>Psychic - Game</title>
 </head>
 
-<body>
+<body onload="Greeting()">
     <!--Connecting Games.js file from assets/javascript/ folder-->
-    <script src="./assets/javascript/game.js"></script>
+  
     <div class="container">
         <div class="row">
             <div class="col-md-12 center ">
                 <header>
                     <h1>The Psychic Game</h1>
+                    <h2 id="greet"> </h2>
                 </header>
             </div>
         </div>
@@ -36,7 +37,7 @@
             <div class="col-md-12 subheader">
                 <ul class="list-group">
                     <li class="list-group-items">
-                        <p id=wins>Wins:</span>
+                        <p id="wins">Wins:</span>
                     </li>
 
                     <li class="list-group-items">
@@ -44,7 +45,7 @@
                     </li>
 
                     <li class="list-group-items">
-                        <p id="GuessesLeft">Guesses Left:</p>
+                        <p id="guessLeft">Guesses Left:</p>
                     </li>
 
                     <li class="list-group-items">
@@ -56,6 +57,7 @@
         </div>
     </div>
     </div>
+    <script src="./assets/javascript/game.js"></script>
 </body>
 
 </html>
