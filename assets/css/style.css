@@ -1,0 +1,24 @@
+body
+{
+background-image: url("../images/Matrix.gif");
+background-color: black; 
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+
+header{
+    color: azure;
+    text-align: center;
+}
+
+.subheader{
+    background-color: #fff;
+    text-align: center;
+    width: 100%;
+
+}
